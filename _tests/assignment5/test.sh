@@ -1,5 +1,5 @@
 hdir=$(pwd)
-for zipped in $(ls *_ASSIGN4_CPSC110.zip); do
+for zipped in $(ls *_ASSIGN5_CPSC110.zip); do
     echo '----------------------------------------'
     echo 'testing' $zipped
     unzip $zipped
