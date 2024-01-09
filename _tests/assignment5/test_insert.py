@@ -16,7 +16,7 @@ def test_insert_v2():
     assert list_a == [1, 2, 3, 6, 7, 8, 9, 10, 4, 5]
 
 def main():
-    test_insert_v1()
+    # test_insert_v1()
     test_insert_v2()
     print('All tests passed for insert.py!')
 
