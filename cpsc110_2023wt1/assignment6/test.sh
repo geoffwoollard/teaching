@@ -1,10 +1,10 @@
 hdir=$(pwd)
-for zipped in $(ls *_ASSIGN7_CPSC110.zip); do
+for zipped in $(ls *_ASSIGN6_CPSC110.zip); do
     echo '----------------------------------------'
     echo 'testing' $zipped
-    unzip $zipped -d $(basename -s .zip $zipped)
+    #unzip $zipped
     cd $(basename -s .zip $zipped)
-    for fname in test_*.py; do
+    for fname in test_DNA.py; do #test_max.py test_rewrite.py test_DNA.py
         cp ../$fname .
         python $fname
     done
