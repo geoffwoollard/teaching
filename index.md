@@ -1,4 +1,4 @@
 ---
-CPSC 110: Computation, programs and programming
+CPSC 110: Computation, Programs and Programming.
 ---
 
