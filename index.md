@@ -1,4 +1,4 @@
 ---
-Teaching.
+CPSC: Teaching
 ---
 
